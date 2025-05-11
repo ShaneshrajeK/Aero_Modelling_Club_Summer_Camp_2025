@@ -38,17 +38,19 @@ Focus shifts to digital design and testing. Students will learn to create 3D mod
 ## Installation Guide
 
 ### 1. Dual Booting with Ubuntu 22.04
+![Ubuntu 22.04 Desktop](https://news.itsfoss.com/content/images/wordpress/2022/04/ubuntu-22-04-release.jpg)    
 **Here are some Video Tutorials for Dual Booting your system with Ubuntu 22.04**
 1. [How to Dual Boot Ubuntu 22.04 LTS and Windows 11](https://www.youtube.com/watch?v=3O9y9_dqNxE)
 2. [Install Ubuntu 22.04 with Windows 11 Dual Boot Step by Step in Hindi](https://www.youtube.com/watch?v=HmqvTsDmyiE)
 
 **You can refer to the following downloadables for dual booting**
-1. [Ubuntu 22.04.5 LTS Desktop Image](Ubuntu 22.04.5 LTS Desktop Imagehttps://releases.ubuntu.com/jammy/ubuntu-22.04.5-desktop-amd64.iso)
+1. [Ubuntu 22.04.5 LTS Desktop Image](https://releases.ubuntu.com/jammy/ubuntu-22.04.5-desktop-amd64.iso)
 2. [Rufus](https://github.com/pbatard/rufus/releases/download/v4.7/rufus-4.7.exe)
 3. [OBS Studio (Screen Recorder)](https://obsproject.com/kb/linux-installation)
 
 
 ### 2. ROS2 Humble Installation
+![ROS2 Humble](https://ubuntu.com/wp-content/uploads/bbc1/HumbleHawksbill_02.png)    
 **You can refer to the following resources for Installation purpose**
 1. Article: [ROS2 Humble Installation ROSWiki](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html)
 2. Video Tutorial: [ROS2 Humble Installation](https://www.youtube.com/watch?v=0aPbWsyENA8)
