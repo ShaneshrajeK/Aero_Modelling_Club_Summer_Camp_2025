@@ -50,7 +50,7 @@ Focus shifts to digital design and testing. Students will learn to create 3D mod
 
 
 ### 2. ROS2 Humble Installation
-![ROS2 Humble](https://ubuntu.com/wp-content/uploads/bbc1/HumbleHawksbill_02.png)    
+![ROS2 Humble](/ros2.png)    
 **You can refer to the following resources for Installation purpose**
 1. Article: [ROS2 Humble Installation ROSWiki](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html)
 2. Video Tutorial: [ROS2 Humble Installation](https://www.youtube.com/watch?v=0aPbWsyENA8)
