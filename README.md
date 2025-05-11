@@ -1,3 +1,4 @@
+![Aero-Modelling Club Logo](/aero.png)
 # Aero-Modelling Club IIT (BHU)'s Summer Camp 2025
 
 ### 🚁 Hey Drone Enthusiasts!  
