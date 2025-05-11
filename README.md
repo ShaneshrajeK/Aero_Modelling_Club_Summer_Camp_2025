@@ -11,31 +11,34 @@ This Summer Camp is destributed into 4 Weeks covering various Concepts and Domai
 So… are you ready to conquer the skies and become a true aerial innovator?  
 Let’s take off together! 💥🔥  
 
-## Week 1: How It's Works?
+## Week 1: How It Works?
+
+![Aero](/airplane.png)
 
 Dive into the core principles of how aerial vehicles fly. This week covers the essential physics of aerodynamics, types of aircraft, flight mechanics, and stability. By the end, students will understand how lift is generated and how control surfaces govern an aircraft's motion. Explore the electronics and control systems that power drones. From microcontrollers to sensors, and from motor control to PID tuning, this week equips students with hands-on knowledge of the hardware-software interface that makes drones responsive and stable.
 
 ## Week 2: Into the Software
 
+![Ardupilot](https://9meters.com/wp-content/uploads/ardupilot-logo.webp)
+
 This week introduces the brain of autonomous drones—ROS. Students will learn to simulate autonomous missions, plan paths, and integrate perception with navigation. It’s a deep dive into enabling drones to think and act on their own in real or simulated environments.
 
 ## Week 3: Computer Vision
 
+![OpenCV](https://opencv.org/wp-content/uploads/2021/02/1_HfZmZayUqnYioPC9qTfd4A.png)
+
 Additionally, students will be introduced to computer vision using OpenCV and YOLO, enabling drones to detect, track, and respond to visual cues—paving the way for tasks like autonomous navigation, object following, and landing pad detection.
 
 ## Week 4: How It's Made?
+
+![SolidWorks](https://ijkenggacademy.in/wp-content/uploads/2023/08/SolidWorks-Banner.png)
 
 Focus shifts to digital design and testing. Students will learn to create 3D models of drones, run aerodynamic and structural simulations, and understand the trade-offs in material choice and structural integrity, preparing them to design robust aerial platforms.
 
 
 ## Week 5: Specialization
 
-
-
-
-
-
-
+    
 ## Installation Guide
 
 ### 1. Dual Booting with Ubuntu 22.04
