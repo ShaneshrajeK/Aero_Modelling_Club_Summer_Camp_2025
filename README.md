@@ -12,9 +12,23 @@ Let’s take off together! 💥🔥
 
 ## Week 1: How It's Works?
 
+Dive into the core principles of how aerial vehicles fly. This week covers the essential physics of aerodynamics, types of aircraft, flight mechanics, and stability. By the end, students will understand how lift is generated and how control surfaces govern an aircraft's motion.
+
+
 ## Week 2: How It's Made?
 
-## Week 3: Into the System
+Focus shifts to digital design and testing. Students will learn to create 3D models of drones, run aerodynamic and structural simulations, and understand the trade-offs in material choice and structural integrity, preparing them to design robust aerial platforms.
+
+
+## Week 3: Into the Hardware and Controls
+
+Explore the electronics and control systems that power drones. From microcontrollers to sensors, and from motor control to PID tuning, this week equips students with hands-on knowledge of the hardware-software interface that makes drones responsive and stable.
+
+
+## Week 4: Into the Software
+
+This week focuses on making drones intelligent and autonomous. Students will dive into the Robot Operating System (ROS) to build modular software systems that can communicate with flight controllers and simulators. Additionally, students will be introduced to computer vision using OpenCV and YOLO, enabling drones to detect, track, and respond to visual cues—paving the way for tasks like autonomous navigation, object following, and landing pad detection.
+
 
 ## Installation Guide
 
