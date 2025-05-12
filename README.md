@@ -1,6 +1,7 @@
 <p align ="center"><img src="/aero.png", width = 50%></p>
 
-# Aero-Modelling Club IIT (BHU)'s Summer Camp 2025
+# Aero-Modelling Club IIT (BHU)'s Summer Camp 2025 
+
 
 ### 🚁 Hey Drone Enthusiasts!  
 Welcome to Aero-Modelling Club's Summer Camp 2025 — your ultimate gateway into the thrilling world of drones! 🌟  
