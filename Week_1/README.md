@@ -62,10 +62,88 @@ With this simulation you must solve problems involved with determining an aircra
 ## 2. Parts of an Aircraft:  
 <p align = 'center'><img src="https://www1.grc.nasa.gov/wp-content/uploads/NASA-Glenn-Airplane-Parts-Image-2.jpg", width = "50%"></p>
 
+### 1. Fuselage
+<p align = 'center'><img src="https://upload.wikimedia.org/wikipedia/commons/1/10/737-700f.gif", width = "40%"></p>
+
+  - The main body of the airplane.
+  - Carries passengers, cargo, and connects all other parts.
+  
+### 2. Wings
+<p align = 'center'><img src="https://www.aviationfile.com/wp-content/uploads/2020/07/Types-of-wings-2-1024x687.jpg", width = "40%"></p>
+
+  - Generate lift due to their airfoil shape.
+  - Attached to the fuselage, and typically house fuel tanks and sometimes landing gear.
 
 
+### 3. Ailerons
+<p align = 'center'><img src="https://www.grc.nasa.gov/WWW/K-12/airplane/Animation/airpar/Images/aroll.gif", width = "40%"></p>
+
+  - Located on the trailing edge of wings (usually near the tips).
+  - Control roll (banking left or right).
+  
+
+### 4. Flaps
+<p align = 'center'><img src="https://www.grc.nasa.gov/WWW/K-12/airplane/Animation/airpar/Images/aflap.gif", width = "40%"></p>
+
+  - Found on the inner trailing edge of wings.
+  - Extend during takeoff/landing to increase lift and drag at lower speeds.
 
 
+### 5. Spoilers
+<p align = 'left' style="padding : 5%">
+<img src="https://www.grc.nasa.gov/WWW/K-12/airplane/Animation/airpar/Images/asprl.gif", width = "49%">
+<img src="https://www.grc.nasa.gov/WWW/K-12/airplane/Animation/airpar/Images/aspol.gif", width = "49.5%">
+</p>
+
+  - Panels on top of the wings that can be raised to reduce lift and increase drag.
+  - Used to help slow the aircraft down and descend quickly, especially during landing.
 
 
+### 6. Vertical Stabilizer
+<p align = 'center'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea40c70aac279dbc24932631bea1cb43-lq", width = "40%"></p>
 
+  - The upright fin at the tail.
+  - Provides yaw stability (prevents side-to-side swinging).
+  
+
+### 7. Rudder
+<p align = 'center'><img src="https://www.grc.nasa.gov/WWW/K-12/airplane/Animation/airpar/Images/ayaw.gif", width = "40%"></p>
+
+  - A movable part on the vertical stabilizer.
+  - Controls yaw (turning the nose left or right).
+  
+
+### 8. Horizontal Stabilizer
+<p align = 'center'><img src="https://i.ytimg.com/vi/tB69yThXWhk/sddefault.jpg", width = "40%"></p>
+
+  - The small wing-like structures at the tail.
+  - Keeps the plane stable in pitch (up and down movement of the nose).
+  
+
+### 9. Elevators
+<p align = 'center'><img src="https://www.grc.nasa.gov/WWW/K-12/airplane/Animation/airpar/Images/aptch.gif", width = "40%"></p>
+
+  - Attached to the horizontal stabilizer.
+  - Control pitch (climbing or descending).
+  
+
+### 10. Engine / Propeller / Jet
+<p align = 'center'><img src="https://eaglepubs.erau.edu/app/uploads/sites/4/2021/09/Propulsion_montage-1-e1689784838913.png", width = "40%"></p>
+
+  - Provides thrust to move the airplane forward.
+  - Can be jet engines, turboprops, or piston engines with propellers.
+  
+
+### 11. Cockpit
+<p align = 'center'><img src="https://aerospaceamerica.aiaa.org/wp-content/uploads/2020/09/opinion-opener.jpg", width = "40%"></p>
+
+  - The front section where the pilot controls the airplane.
+  - Contains flight instruments and controls.
+  
+
+### 12. Landing Gear
+<p align = 'center'><img src="https://www.sikaglobal.com/uploads/sikaad/landing-gear.jpg", width = "40%"></p>
+
+  - Supports the plane while on the ground.
+  - Includes wheels or skids used during takeoff, landing, and taxiing.
+  
