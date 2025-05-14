@@ -9,7 +9,7 @@ Multirotor drones fly by generating lift through spinning rotors. Understanding 
 ### 📌 The Four Forces of Drone Flight
 
 <p align="center">
-  <img src="https://www.droneybee.com/wp-content/uploads/2019/06/drone-flight.jpg" width="60%">
+  <img src="https://cfdflowengineering.com/wp-content/uploads/2020/09/Drone_cove-page.png" width="50%">
 </p>
 
 1. **Weight (Gravity)**
@@ -29,7 +29,7 @@ Multirotor drones fly by generating lift through spinning rotors. Understanding 
 ### 🌀 How Multirotors Fly: The Physics
 
 <p align="center">
-  <img src="https://cdn.sparkfun.com/assets/learn_tutorials/4/5/1/Multirotor_Control_Illustration.png" width="70%">
+  <img src="https://i.sstatic.net/fbjwb.jpg" width="60%">
 </p>
 
 * Drones like quadcopters have **fixed-pitch rotors**.
@@ -49,7 +49,7 @@ Multirotor drones fly by generating lift through spinning rotors. Understanding 
 ### ⚙️ Propellers and Lift Generation
 
 <p align="center">
-  <img src="https://www.droneybee.com/wp-content/uploads/2019/07/propeller-blade-pitch.jpg" width="50%">
+  <img src="https://blog.platypush.tech/img/propeller-schema.png" width="40%">
 </p>
 
 * Propellers act like rotating airfoils.
@@ -65,12 +65,18 @@ Multirotor drones fly by generating lift through spinning rotors. Understanding 
 ## 2. Parts of a Drone
 
 <p align="center">
-  <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211124104050/DroneDiagram.jpg" width="70%">
+  <img src="https://pub.mdpi-res.com/drones/drones-07-00268/article_deploy/html/images/drones-07-00268-g005.png?1681383992" width="40%">
 </p>
+
+--- 
 
 ### 🔧 1. Frame
 
 The structural skeleton holding all parts together. Materials: Carbon fiber (light & strong), plastic (cheap), aluminum.
+
+<p align="center">
+  <img src="https://roboticsbiz.com/wp-content/uploads/2019/05/frames.jpg" width="60%">
+</p>
 
 ---
 
@@ -78,11 +84,20 @@ The structural skeleton holding all parts together. Materials: Carbon fiber (lig
 
 Create lift. Must be balanced. Typically two CW and two CCW in quadcopters.
 
+<p align="center">
+  <img src="https://learnassets.getfpv.com/learn/wp-content/uploads/2018/01/05182004/3-Prop-Blades.jpg" width="60%">
+  <img src="https://img-new.cgtrader.com/items/4334861/bf011f7ba9/large/toroidal-propeller-3d-model-bf011f7ba9.jpg" width="35%">
+</p>
+
 ---
 
 ### 🔧 3. Motors
 
 Brushless DC motors (BLDC) are preferred for power and reliability. Paired with Electronic Speed Controllers (ESCs).
+
+<p align="center">
+  <img src="https://i.pinimg.com/736x/fd/9f/de/fd9fde3b6ae32b07bc1114699f3c1530.jpg" width="50%">
+</p>
 
 ---
 
@@ -90,12 +105,21 @@ Brushless DC motors (BLDC) are preferred for power and reliability. Paired with 
 
 Control motor speed based on signals from flight controller.
 
+<p align="center">
+  <img src="https://www.engineersgarage.com/wp-content/uploads/2023/05/DroneESCrotator.png" width="60%">
+</p>
+
 ---
 
 ### 🔧 5. Battery
 
-Usually Li-Po (Lithium-Polymer). Ratings:
+Usually Li-Po (Lithium-Polymer). 
 
+<p align="center">
+  <img src="https://www.remoteflyer.com/wp-content/uploads/2022/08/drone-battery-header-e1659950722450.jpg" width="70%">
+</p>
+
+Ratings:
 * **Voltage (V)** – number of cells (3S = 11.1V)
 * **Capacity (mAh)** – total energy storage
 * **C-rating** – how quickly energy can be discharged
@@ -106,9 +130,14 @@ Usually Li-Po (Lithium-Polymer). Ratings:
 
 The drone’s brain. Interprets pilot inputs and sensor data to control ESCs.
 
+<p align="center">
+  <img src="https://rcdrone.top/cdn/shop/articles/PixhawkFamily.jpg?v=1730607031" width="50%">
+</p>
+
 Popular FCs:
 
 * **Pixhawk**
+* **Speedybee**
 * **Betaflight / INAV**
 * **DJI Naza / A3**
 
@@ -118,11 +147,19 @@ Popular FCs:
 
 Provides position hold, return-to-home (RTH), and autonomous navigation.
 
+<p align="center">
+  <img src="https://oscarliang.com/wp-content/uploads/2023/03/fpv-drone-gps-module-betaflight-inav-rescue-return-to-home-round-up-testing.jpg" width="50%">
+</p>
+
 ---
 
 ### 🔧 8. IMU (Inertial Measurement Unit)
 
 Contains accelerometers and gyros. Measures orientation and motion.
+
+<p align="center">
+  <img src="https://www.mdpi.com/drones/drones-08-00738/article_deploy/html/images/drones-08-00738-g001.png" width="60%">
+</p>
 
 ---
 
@@ -130,11 +167,19 @@ Contains accelerometers and gyros. Measures orientation and motion.
 
 Measures air pressure to determine altitude.
 
+<p align="center">
+  <img src="https://ardupilot.org/copter/_images/baro-ms5611-pixhawk.jpg" width="50%">
+</p>
+
 ---
 
 ### 🔧 10. Camera and Gimbal
 
 Used for FPV (First Person View), mapping, or surveillance. Gimbals stabilize footage.
+
+<p align="center">
+  <img src="https://www.unmannedsystemstechnology.com/wp-content/uploads/2020/01/Gremsy-T3-PE-drone-camera-gimbal-1024x683.jpg" width="50%">
+</p>
 
 ---
 
@@ -142,13 +187,13 @@ Used for FPV (First Person View), mapping, or surveillance. Gimbals stabilize fo
 
 Send data (GPS, battery, altitude) to ground station. Optional RC or 4G/5G control.
 
+<p align="center">
+  <img src="https://m.media-amazon.com/images/I/71fUVx6oqvL._AC_UF1000,1000_QL80_.jpg" width="50%">
+  <img src="https://m.media-amazon.com/images/I/61jBKSlM4AL.jpg" width="37.6%">
+</p>
+
 ---
 
-### 🔧 12. Landing Gear
-
-Can be fixed or retractable. Protects the camera and payload during landing.
-
----
 
 ## Types of Drones by Configuration
 
@@ -158,6 +203,10 @@ Can be fixed or retractable. Protects the camera and payload during landing.
 | **Quadcopter (X or +)** | 4 motors, most common, balanced and simple | Aerial imaging, inspection, mapping           |
 | **Hexacopter**          | 6 motors, higher lift and redundancy       | Heavy-lift, commercial use                    |
 | **Octocopter**          | 8 motors, extremely stable and reliable    | Professional cinematography, industrial tasks |
+
+---
+
+# Types, Control, and Autonomy of Drones
 
 ---
 
@@ -177,10 +226,10 @@ Can be fixed or retractable. Protects the camera and payload during landing.
 
 ---
 
-## 2. Drone Control Systems
+## 2. Drone Communication Systems
 
 <p align="center">
-  <img src="https://www.robotshop.com/media/files/images2/drone_control_system_example.jpg" width="70%">
+  <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs42452-020-2749-5/MediaObjects/42452_2020_2749_Fig1_HTML.png" width="60%">
 </p>
 
 ### 🎮 **Radio Control (RC)**
@@ -215,7 +264,7 @@ Used in advanced UAVs (custom or DJI Enterprise). Enables:
 ## 3. First Person View (FPV)
 
 <p align="center">
-  <img src="https://cdn.thewirecutter.com/wp-content/media/2022/11/drone-2048px-20221111-01.jpg" width="70%">
+  <img src="https://i.ytimg.com/vi/9DY9Cn8Ld_A/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBuUP17vWfsjfmimKJytIi8ktS53Q" width="60%">
 </p>
 
 ### 📹 **What is FPV?**
@@ -265,7 +314,7 @@ Live video feed from the drone’s onboard camera to pilot goggles or screen.
 ### 🗺️ Example: Waypoint Mission Planning
 
 <p align="center">
-  <img src="https://ardupilot.org/planner/_images/MissionPlannerFlightPlan1.jpg" width="70%">
+  <img src="https://docs.qgroundcontrol.com/Stable_V4.3/assets/plan_view_overview.DwcNZe50.jpg" width="60%">
 </p>
 
 Software like **Mission Planner** or **QGroundControl** lets you:
@@ -307,18 +356,6 @@ Software like **Mission Planner** or **QGroundControl** lets you:
 
 ---
 
-## Summary Diagram
-
-<p align="center">
-  <img src="https://www.electronicsforu.com/wp-contents/uploads/2020/01/Drone-Complete-System.jpg" width="70%">
-</p>
-
----
-
-Great! Here's **Part 3** of your **"Drone 101"** document, continuing in the same clean, student-friendly, visually rich format.
-
----
-
 # Drone Hardware, Assembly & PID Tuning
 
 ---
@@ -326,7 +363,7 @@ Great! Here's **Part 3** of your **"Drone 101"** document, continuing in the sam
 ## 1. Drone Subsystems Overview
 
 <p align="center">
-  <img src="https://static.wixstatic.com/media/1ab582_0245eec1db3a430aa893b98f2cda05e7~mv2.png" width="75%">
+  <img src="https://www.mdpi.com/sensors/sensors-24-03064/article_deploy/html/images/sensors-24-03064-g001-550.jpg" width="75%">
 </p>
 
 ### Key Subsystems:
@@ -410,9 +447,6 @@ Great! Here's **Part 3** of your **"Drone 101"** document, continuing in the sam
 6. Install GPS, buzzer, LEDs (optional)
 7. Calibrate via GCS (Mission Planner / Betaflight)
 
-<p align="center">
-  <img src="https://cdn.hackaday.io/images/5145011437699901884.jpg" width="70%">
-</p>
 
 ---
 
@@ -445,9 +479,7 @@ If each motor produces 1 kg thrust, and your drone weighs 1.5 kg:
 PID = **Proportional**, **Integral**, **Derivative**
 Used in flight controllers to maintain stability.
 
-<p align="center">
-  <img src="https://www.robotscience.in/wp-content/uploads/2019/01/PID-loop-768x360.png" width="65%">
-</p>
+
 
 ### 🎚️ Parameters:
 
