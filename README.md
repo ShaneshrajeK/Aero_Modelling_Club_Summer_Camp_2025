@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/aero.png" width="50%">
+  <img src="/img/aero.png" width="50%">
 </p>
 
 <h1 align="center">Aero-Modelling Club IIT (BHU)<br>Summer Camp 2025</h1>
@@ -21,7 +21,7 @@ Specially curated for freshers, this electrifying program will guide you through
 ## ✈️ Week 1: How It Works?
 
 <p align="center">
-  <img src="/airplane.png" width="50%">
+  <img src="/img/airplane.png" width="50%">
 </p>
 
 Understand the **fundamentals of flight** — how lift is generated, how aircraft stay stable, and how they maneuver in air. Explore:
@@ -113,7 +113,7 @@ Explore advanced domains, work on a capstone project, or dive deeper into:
 ### 🤖 2. ROS2 Humble Installation
 
 <p align="center">
-  <img src="/ros2.png" width="50%">
+  <img src="/img/ros2.png" width="50%">
 </p>
 
 ROS2 is essential for building intelligent autonomous drones.
