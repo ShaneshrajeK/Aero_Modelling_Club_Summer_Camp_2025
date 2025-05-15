@@ -56,29 +56,6 @@ OpenCV-Basics/
 
 ---
 
-## 🚀 Quick Start
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/Shubham9653830781/OpenCV-Basics.git
-cd OpenCV-Basics
-```
-
-### 2. Install requirements
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run any example
-
-```bash
-python 01_Introduction_to_OpenCV/basic_operations.py
-```
-
----
-
 ## 🛠️ Requirements
 
 The project requires the following Python packages:
