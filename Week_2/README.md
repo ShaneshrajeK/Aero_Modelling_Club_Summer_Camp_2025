@@ -158,3 +158,7 @@ WAYPOINT 4: RTL
 * **ROS**: Robot Operating System
 
 ---
+
+# Next: [ROS2 Installation](https://github.com/ShaneshrajeK/Aero_Modelling_Club_Summer_Camp_2025/blob/main/Week_2/ros2.md)
+
+---
