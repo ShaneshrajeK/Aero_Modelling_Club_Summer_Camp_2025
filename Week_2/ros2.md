@@ -152,3 +152,7 @@ Create a simple ROS 2 application using Python in which:
 * Use `std_msgs/msg/String` message type
 
 ---
+
+Next: [Gazebo Simulator Installation](https://github.com/ShaneshrajeK/Aero_Modelling_Club_Summer_Camp_2025/blob/main/Week_2/gazebo.md)
+
+---
