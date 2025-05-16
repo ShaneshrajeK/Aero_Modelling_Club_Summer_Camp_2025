@@ -12,12 +12,12 @@ Gazebo Harmonic is part of the **modern Gazebo family (gz-sim)** and is **not in
 ```bash
 sudo apt update
 sudo apt install curl gnupg lsb-release -y
+```
 
-sudo mkdir -p /etc/apt/keyrings
-curl -fsSL https://packages.osrfoundation.org/gazebo.key | sudo tee /etc/apt/keyrings/gazebo.gpg > /dev/null
+```bash
+sudo curl https://packages.osrfoundation.org/gazebo.gpg --output /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/gazebo-stable.list > /dev/null
 
-echo "deb [signed-by=/etc/apt/keyrings/gazebo.gpg] https://packages.osrfoundation.org/gz/ubuntu-stable $(lsb_release -cs) main" \
-| sudo tee /etc/apt/sources.list.d/gz-stable.list > /dev/null
 ```
 
 ---
