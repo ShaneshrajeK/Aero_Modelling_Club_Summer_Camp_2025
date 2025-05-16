@@ -204,3 +204,5 @@ cd ~/
 * [ros2/micro\_ros\_setup](https://github.com/micro-ROS/micro_ros_setup)
 
 ---
+
+# Next: [Task 2.2](https://github.com/ShaneshrajeK/Aero_Modelling_Club_Summer_Camp_2025/blob/main/Week_2/task2.md)
