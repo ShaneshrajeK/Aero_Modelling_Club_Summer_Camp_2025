@@ -20,4 +20,4 @@ This section sets the foundation for more advanced computer vision tasks by gett
 
 ## 🧰 Next topic
 
-📄 [Click hair/02_Image_processing](./02_Image_Processing)
+📄 [Click hair/02_Image_processing](./OpenCV-Basics-main/opencv-basics-guide/opencv-basics-guide/02_Image_Processing)
