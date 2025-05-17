@@ -18,6 +18,3 @@ OpenCV (Open Source Computer Vision Library) is an open-source computer vision a
 
 This section sets the foundation for more advanced computer vision tasks by getting you comfortable with image input/output and basic operations.
 
-## 🧰 Next topic
-
-📄 [Click hair/02_Image_processing](./Week_3/OpenCV-Basics-main/opencv-basics-guide/opencv-basics-guide/02_Image_Processing/)
