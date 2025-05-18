@@ -128,12 +128,20 @@ ROS2 is essential for building intelligent autonomous drones.
 
 3.Solidworks Installation
 
+<p align="center">
+  <img src="/img/solidworks.jpeg" width="50%">
+</p>
+
 * [Download link](https://iitbhuacin-my.sharepoint.com/:f:/g/personal/aryan_kumar_mec21_iitbhu_ac_in/Ep6X02My5qBElme6-oiZU1cBbAmdY0HwXmRvq2fQCty0lQ?e=voDTzG)
 * [Installation video](https://iitbhuacin-my.sharepoint.com/:v:/g/personal/raut_sahilprakash_mec23_iitbhu_ac_in/EUwY-9khU49Cn9lo58aDW-8BOCovOxdN8bpj5V0Rg2az0g?e=OgcENc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ---
 
 3.Ansys Installation
+
+<p align="center">
+  <img src="/img/ansys.png" width="50%">
+</p>
 
 * [Download link](https://iitbhuacin-my.sharepoint.com/:f:/g/personal/aryan_kumar_mec21_iitbhu_ac_in/Ep6X02My5qBElme6-oiZU1cBbAmdY0HwXmRvq2fQCty0lQ?e=voDTzG)
 * [Installation video](https://iitbhuacin-my.sharepoint.com/:v:/g/personal/raut_sahilprakash_mec23_iitbhu_ac_in/EeDeo-kYG8tEi3Wm8JkbEikBpl0xCQMpk0XZfqeFucXdBw?e=qGfaUs&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
