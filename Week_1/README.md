@@ -359,7 +359,7 @@ The success of the mission could change the course of the operation—and your U
 6. **Speed**: Achieve high cruise speed to complete missions quickly and reduce loitering over dangerous zones.
 7. **Launch & Recovery**: Design for practical deployment and recovery (e.g., hand launch, catapult, belly landing).
 
-   You are allowed to necessary assumptions for the calculation.
+   You are allowed to take necessary assumptions for the calculation.
 
 ---
 
