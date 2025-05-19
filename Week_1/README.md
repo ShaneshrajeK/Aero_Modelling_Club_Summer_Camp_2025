@@ -385,7 +385,7 @@ Each team must submit a report including:
 * Camouflage based on terrain
 
 ---
-### 🔗 Submission Link: 
+### 🔗 Submission Link: [Google Forms](https://docs.google.com/forms/d/e/1FAIpQLSfbeE2Encfr6HNoTIb707KJwf5ji44k7aHZWqQce-UHwLhdOQ/viewform?usp=header)
 
 ---
 
