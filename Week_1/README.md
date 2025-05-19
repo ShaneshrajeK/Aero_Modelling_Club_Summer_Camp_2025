@@ -344,7 +344,7 @@ The success of the mission could change the course of the operation—and your U
 
 ## 📝 **Problem Statement**
 
-> **Design and propose a mission-capable UAV system for Operation Shadow Wing.**
+> **Propose a mission-capable UAV system for Operation Shadow Wing.**
 
 ### 🔧 **Your UAV Must:**
 
@@ -359,23 +359,25 @@ The success of the mission could change the course of the operation—and your U
 6. **Speed**: Achieve high cruise speed to complete missions quickly and reduce loitering over dangerous zones.
 7. **Launch & Recovery**: Design for practical deployment and recovery (e.g., hand launch, catapult, belly landing).
 
+   You are allowed to necessary assumptions for the calculation.
+
 ---
 
 ## 🎨 **Deliverables**
 
-Each team must submit:
+Each team must submit a report including:
 
-* A **conceptual design** of the UAV (CAD sketches/drawings).
 * A **brief aerodynamic and structural justification** of their airframe choice.
 * Estimation of **flight performance metrics** (range, speed, endurance).
 * A plan or mock-up of **payload integration**.
 * Summary of **stealth features** incorporated.
-* (Optional) A short **mission animation or simulation** using Gazebo, XFLR5, or similar tools.
+* (Optional) A short **mission animation or simulation** using Gazebo or similar tools.
 
 ---
 
 ## 🧠 Bonus for Creativity:
 
+* A **conceptual design** of the UAV (CAD sketches/drawings).
 * Radar-absorbing materials
 * Modular payload bay
 * FPV capabilities
