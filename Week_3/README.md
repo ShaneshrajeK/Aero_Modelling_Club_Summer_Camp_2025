@@ -1,3 +1,6 @@
+Sure! Here's the updated, nicely formatted README-style content incorporating the YouTube playlist, tutorial video, and official OpenCV documentation links as you requested:
+
+---
 
 # 🧠 OpenCV Basics — Learn Computer Vision with Python
 
@@ -36,7 +39,6 @@ OpenCV-Basics/
 │
 ├── Setup_Instructions.md          # Cross-platform OpenCV setup instructions with notebook support
 ├── requirements.txt               # Python dependencies (opencv-python, numpy, matplotlib)
-
 ```
 
 ---
@@ -81,14 +83,32 @@ We support setup on **Windows**, **Linux**, and **Mac**. See the full guide here
 
 ---
 
+## 🎥 Before You Start — Watch These Tutorials!
+
+To get the most out of this repo, please watch the official OpenCV Python tutorial playlist and a great beginner video:
+
+* [OpenCV Python Tutorial Playlist](https://youtube.com/playlist?list=PLQVvvaa0QuDdttJXlLtAJxJetJcqmqlQq&si=wuAwTZ6CpNElRM1u) by Sentdex
+* [OpenCV Python for Beginners - Full Course](https://www.youtube.com/watch?v=oXlwWbU8l2o) by freeCodeCamp.org
+
+---
+
+## 📚 Official Documentation
+
+For detailed explanations and advanced tutorials, always refer to the official OpenCV Python documentation:
+🌐 [OpenCV Python Tutorials](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)
+
+---
+
 ## 🧭 Learning Flow:
-1. Image Basics → 
-2. Color Spaces → 
-3. Thresholding → 
-4. Contours & Shapes → 
+
+1. Image Basics →
+2. Color Spaces →
+3. Thresholding →
+4. Contours & Shapes →
 5. Real-Time Video Tasks →
 6. Deep Learning with OpenCV (future)
 
+---
 
 ## 📚 Recommended Learning Path
 
@@ -101,5 +121,6 @@ To build toward advanced CV tasks like object detection, shape segmentation, and
 5. **Pose Detection with MediaPipe**
 6. **VSLAM & Visual Tracking (ORB-SLAM)**
 
-
 ---
+
+Let me know if you want me to create this as a README.md file for you or integrate it into your repo directly!
