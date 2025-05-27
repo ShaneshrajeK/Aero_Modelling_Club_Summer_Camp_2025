@@ -24,15 +24,17 @@ sudo apt-get install gitk git-gui
 
 ```bash
 cd ~
-git clone https://github.com/ArduPilot/ardupilot.git
+git clone --recurse-submodules https://github.com/ArduPilot/ardupilot.git
 cd ardupilot
-git submodule update --init --recursive
 ```
 
 ### ⚙️ Install ArduPilot Dependencies
 
 ```bash
 Tools/environment_install/install-prereqs-ubuntu.sh -y
+```
+Now, Reload the PATH
+```
 . ~/.profile
 ```
 
@@ -124,15 +126,37 @@ cd ~/ardu_ws
 colcon build --packages-up-to ardupilot_dds_tests
 ```
 
+If the build fails, Run this
+
+```
+colcon build --packages-up-to ardupilot_dds_tests --event-handlers=console_cohesion+
+```
+
+**Test your ArduPilot ROS 2 installation (Optional):**
+```
+cd ~/ardu_ws
+source ./install/setup.bash
+colcon test --executor sequential --parallel-workers 0 --base-paths src/ardupilot --event-handlers=console_cohesion+
+colcon test-result --all --verbose
+```
+
 ---
+
 
 ## 🔁 4. Run ArduPilot SITL + MicroXRCE-DDS
 
 ### 🚁 Launch ArduPilot SITL
 
+First Time,
 ```bash
 cd ~/ardupilot/
 export PATH=$PATH:~/ardu_ws/src/ardupilot/Tools/autotest
+sim_vehicle.py -v ArduCopter --console -DG --enable-dds
+```
+
+Then After,
+
+```
 sim_vehicle.py -v ArduCopter --console -DG --enable-dds
 ```
 
@@ -142,13 +166,17 @@ This starts SITL on UDP ports.
 
 ### 🔌 Run DDS agent:
 
-Open another terminal:
-
+Open another terminal:  
+First Time,
 ```bash
 source /opt/ros/humble/setup.bash
 cd ~/ardu_ws/
 colcon build --packages-up-to ardupilot_sitl
 source install/setup.bash
+ros2 launch ardupilot_sitl sitl_dds_udp.launch.py transport:=udp4 synthetic_clock:=True wipe:=False model:=quad speedup:=1 slave:=0 instance:=0 defaults:=$(ros2 pkg prefix ardupilot_sitl)/share/ardupilot_sitl/config/default_params/copter.parm,$(ros2 pkg prefix ardupilot_sitl)/share/ardupilot_sitl/config/default_params/dds_udp.parm sim_address:=127.0.0.1 master:=tcp:127.0.0.1:5760 sitl:=127.0.0.1:5501
+```
+There After,
+```
 ros2 launch ardupilot_sitl sitl_dds_udp.launch.py transport:=udp4 synthetic_clock:=True wipe:=False model:=quad speedup:=1 slave:=0 instance:=0 defaults:=$(ros2 pkg prefix ardupilot_sitl)/share/ardupilot_sitl/config/default_params/copter.parm,$(ros2 pkg prefix ardupilot_sitl)/share/ardupilot_sitl/config/default_params/dds_udp.parm sim_address:=127.0.0.1 master:=tcp:127.0.0.1:5760 sitl:=127.0.0.1:5501
 ```
 
@@ -198,9 +226,9 @@ cd ~/
 
 ## 📦 References
 
-* [micro-ROS documentation](https://micro.ros.org)
+* [Build Environment Setup](https://ardupilot.org/dev/docs/building-setup-linux.html#building-setup-linux)
+* [Ardupilot Setup in ROS2](https://ardupilot.org/dev/docs/ros2.html)
 * [ArduPilot Dev Docs](https://ardupilot.org/dev/)
-* [Micro XRCE-DDS](https://github.com/eProsima/Micro-XRCE-DDS)
 * [ros2/micro\_ros\_setup](https://github.com/micro-ROS/micro_ros_setup)
 
 ---
