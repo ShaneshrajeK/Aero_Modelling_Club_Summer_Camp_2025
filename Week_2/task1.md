@@ -22,9 +22,9 @@ Create a simple ROS 2 application using Python in which:
 #### **Expected Output Example:**
 
 ```text
-[INFO] [talker]: Publishing: "Hi, My Name is Alice."
-[INFO] [listener]: I heard: "Hi, My Name is Alice." | Count: 1
-[INFO] [listener]: I heard: "Hi, My Name is Alice." | Count: 2
+[INFO] [talker]: Publishing: "Hi, My Name is AMC."
+[INFO] [listener]: I heard: "Hi, My Name is AMC." | Count: 1
+[INFO] [listener]: I heard: "Hi, My Name is AMC." | Count: 2
 ...
 ```
 
