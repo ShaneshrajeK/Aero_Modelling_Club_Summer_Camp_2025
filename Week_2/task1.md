@@ -38,3 +38,17 @@ Create a simple ROS 2 application using Python in which:
 * Use `std_msgs/msg/String` message type
 
 ---
+
+### Deliverables:
+
+1. Publisher Script
+2. Subscriber Script
+3. Screen Recording of the Task
+
+---
+
+### Submission:
+#### Deadline: Sunday EOD, 1 June 2025
+#### Submission Link: [Submit Here](https://forms.gle/gCJW1vDH7tkRnWFk9)
+
+---
