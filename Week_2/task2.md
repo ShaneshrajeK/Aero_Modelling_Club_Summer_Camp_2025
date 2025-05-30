@@ -17,8 +17,7 @@ Set up a simulated drone environment using ArduPilot, Gazebo, and ROS 2 Humble. 
 
 2. **Simulation Environment**
 
-   * Launch the **`runway.world`** in Gazebo.
-   * Spawn an **Iris drone** using ArduPilot SITL configured for Gazebo (model: `gazebo-iris`).
+   * Launch the **`iris_runway.launch.py`** in Gazebo.
    * Ensure communication between ArduPilot and ROS 2 is established using **Micro XRCE-DDS**.
 
 3. **Python ROS 2 Node**
@@ -45,7 +44,12 @@ Set up a simulated drone environment using ArduPilot, Gazebo, and ROS 2 Humble. 
 * Screenshots of:
 
   * ROS 2 topic list.
-  * ArduPilot SITL running.
-  * Gazebo with Iris in the runway world.
+
+
+---
+
+### **Submission**
+
+You can Submit your response [Here](https://forms.gle/ePBAsqkUk1BwU1L1A)
 
 ---
