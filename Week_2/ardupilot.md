@@ -142,6 +142,87 @@ colcon test-result --all --verbose
 
 ---
 
+## 🔁3. Install Ardupilot-Gazebo Package
+
+### Set up all the necessary ROS 2 packages in the Workspace
+
+Clone the required repositories using vcstool and a ros2.repos files:
+
+```bash
+cd ~/ardu_ws
+vcs import --input https://raw.githubusercontent.com/ArduPilot/ardupilot_gz/main/ros2_gz.repos --recursive src
+```
+
+Set the Gazebo version:
+
+```bash
+export GZ_VERSION=harmonic
+```
+
+Add Gazebo APT sources
+
+```bash
+sudo apt install wget
+wget https://packages.osrfoundation.org/gazebo.gpg -O /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main" | tee /etc/apt/sources.list.d/gazebo-stable.list > /dev/null
+sudo apt update
+```
+
+Add Gazebo sources to rosdep for the non-default pairing of ROS 2 Humble and Gazebo Harmonic
+
+```bash
+wget https://raw.githubusercontent.com/osrf/osrf-rosdep/master/gz/00-gazebo.list -O /etc/ros/rosdep/sources.list.d/00-gazebo.list
+rosdep update
+```
+
+Update ROS and Gazebo dependencies:
+
+```bash
+cd ~/ardu_ws
+source /opt/ros/humble/setup.bash
+sudo apt update
+rosdep update
+rosdep install --from-paths src --ignore-src -y
+```
+
+---
+
+### Build the Package:
+
+```bash
+cd ~/ardu_ws
+colcon build --packages-up-to ardupilot_gz_bringup
+```
+
+---
+
+### Run the Simulation:
+
+```bash
+cd ardu_ws/
+source install/setup.bash
+ros2 launch ardupilot_gz_bringup iris_runway.launch.py
+```
+
+---
+
+### Explore:
+
+You can try to simulate different vehicles as well!
+
+#### Iris Maze 
+
+```bash
+ros2 launch ardupilot_gz_bringup iris_maze.launch.py
+```
+
+#### Rover
+
+```bash
+ros2 launch ardupilot_gz_bringup wildthumper.launch.py
+```
+
+---
 
 ## 🔁 4. Run ArduPilot SITL + MicroXRCE-DDS
 
